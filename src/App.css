@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body{
+  margin:0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main_page{
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: #F0F6FC;
+  z-index: -2;
+  overflow-x: scroll;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main_page::-webkit-scrollbar{
+  width: 7px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main_page::-webkit-scrollbar-track-piece {
+  background: #8799AB;
+  border-radius: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.main_page::-webkit-scrollbar-thumb {
+  background: #E4EDF5;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_page .modal_window{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(240, 246, 252, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 10;
+  display: none;
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf');
+  font-weight: 300;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('./fonts/Montserrat-Bold.ttf');
+  font-weight: 300;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'PT Sans';
+  src: url('./fonts/PTSans-Regular.ttf');
+  font-weight: 300;
+  font-style: normal;
+} 
+@import './css/Header.css';
+@import './css/Expert.css';
+@import './css/Menu.css';
+@import './css/Calendar.css';
+@import './css/LeftPanel.css';
+@import './css/Users.css';

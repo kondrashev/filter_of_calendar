@@ -1,0 +1,202 @@
+.load_users{
+    position: absolute;
+    width: 1269px;
+    height: auto;
+    left: 378px;
+    top: 196px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+.load_users .line{
+    position: absolute;
+    width: 1194px;
+    height: 1px;
+    left: 35px;
+    top: 60px;
+    background: #E7ECF1;
+}
+.load_users .header_users,
+.load_users .list_users
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.load_users .header_users div:nth-child(1),
+.load_users .list_users div:nth-child(1)
+{
+    position: relative;
+    width: 96px;
+    height: 100%;
+}
+.load_users .header_users div:nth-child(1),
+.load_users .list_users div:nth-child(1)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.load_users .header_users div:nth-child(1) .circle,
+.load_users .list_users div:nth-child(1) .circle
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid rgba(131, 142, 157, 0.3);
+}
+.load_users .header_users div{
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 130%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+.load_users .header_users div:nth-child(2),
+.load_users .list_users div:nth-child(2)
+{
+    width: 202px;
+}
+.load_users .header_users div:nth-child(3),
+.load_users .list_users div:nth-child(3)
+{
+    width: 175px;
+}
+.load_users .header_users div:nth-child(4),
+.load_users .list_users div:nth-child(4)
+{
+    width: 202px;
+}
+.load_users .header_users div:nth-child(5),
+.load_users .list_users div:nth-child(5)
+{
+    width: 202px;
+}
+.load_users .header_users div:nth-child(6),
+.load_users .list_users div:nth-child(6)
+{
+    width: 216px;
+}
+.load_users .header_users div:nth-child(7),
+.load_users .list_users div:nth-child(7)
+{
+    width: 162px;
+    cursor: pointer;
+}
+.load_users .header_users div:nth-child(7) h{
+    width: 83px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 130%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.load_users .header_users div:nth-child(7) p{
+    width: 15px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 15px;
+    margin-left: 11px;
+}
+.load_users .header_users div:nth-child(7) .vector{
+    width: auto;
+    height: auto;
+    margin-left: 32px;
+    border: none;
+}
+.load_users .list_users div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.load_users .list_users div h:nth-child(1){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    color: black;
+}
+.load_users .list_users div h:nth-child(2){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 130%;
+}
+.load_users .list_users div:nth-child(5),
+.load_users .list_users div:nth-child(6)
+{
+    position: relative;
+}
+.load_users .list_users div:nth-child(5) .course{
+    width: 84px;
+    height: 47px;
+    position: absolute;
+    top:50%;
+    transform: translate(140%, -50%);
+    background: linear-gradient(270deg, #FFFFFF 53.27%, rgba(255, 255, 255, 0) 115.44%);
+}
+.load_users .list_users div:nth-child(6) .relation{
+    width: 100px;
+    height: 47px;
+    position: absolute;
+    top:50%;
+    transform: translate(100%, -50%);
+    background: linear-gradient(270deg, #FFFFFF 53.27%, rgba(255, 255, 255, 0) 115.44%);
+}
+.load_users .list_users div:nth-child(7){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.load_users .list_users div:nth-child(7) div:nth-child(1){
+    margin-right: 2px;
+}
+.load_users .list_users div:nth-child(7) div:nth-child(2){
+    margin-right: -145px;
+}
+
+.load_users .list_users div:nth-child(2) h:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.load_users .list_users div:nth-child(2) h:nth-child(1)::before{
+    display: block;
+    content: '';
+    width: 15px;
+    height: 20px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-image: url('../images/lock.svg');
+    display: none;
+}
+.load_users .list_users:nth-child(9) div:nth-child(2) h:nth-child(1)::before{
+    display: initial;
+}
+.load_users .list_users:nth-child(9) div:nth-child(3),
+.load_users .list_users:nth-child(9) div:nth-child(4),
+.load_users .list_users:nth-child(9) div:nth-child(5),
+.load_users .list_users:nth-child(9) div:nth-child(6)
+{
+    background-color: #ffffff;
+    opacity: 0.7;
+}

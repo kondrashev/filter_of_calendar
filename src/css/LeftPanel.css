@@ -1,0 +1,46 @@
+.left_panel{
+    position: absolute;
+    width: 177px;
+    height: 847px;
+    left: 38px;
+    top: 166px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(128, 158, 191, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_panel div{
+    width: 158px;
+    height: 85px;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.left_panel h{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 130%;
+    display: block;
+    width: auto;
+}
+.left_panel div div{
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: initial;
+    margin-top: 20px;
+}
+.left_panel div h{
+    margin-bottom: 10px;
+}
